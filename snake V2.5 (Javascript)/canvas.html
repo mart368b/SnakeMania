@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+<meta charset="utf-8"/>
+<title>Snake</title>
+<link rel="stylesheet" type="text/css" href="game.css">
+<script type="text/javascript" src="Libary.js"></script>
+<script type="text/javascript" src="MainLoop.js"></script>
+</head>
+<body onload="startup()">
+	<div id ="topmenu">
+		<h1 id="title" class = "top">Pixel Perfect Snake V 2.0</h1>
+		<p id ="score">Filled: </p>
+	</div>
+	<canvas id="canvas" height="100" width="200">
+	Your browser does not support the HTML5 canvas tag.</canvas>
+	<div id="pop_up" hidden>
+		<h2 id="message">Nyt spil?</h2>
+		<button onclick="reset()">Start nyt spil</button>
+
+		<p class = "info">Regnbue</p>
+		<div id ="rainbow" class="toggle" style="background-color: lightgrey;" onclick="setgradient()">
+			<div id = "rainbowflip" class = "toggleflip" style="left: 0vh;" ></div>
+		</div>
+
+		<p class = "info">Bevægende mad</p>
+		<div id ="moving" class="toggle" style="background-color: lightgrey;" onclick="setmoving()">	<div id = "movingflip" class = "toggleflip" style="left: 0vh;" ></div>
+		</div>
+	</div>
+	<div id = "selector_background"></div>
+</body>
+</html>
+

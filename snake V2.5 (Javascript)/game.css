@@ -1,0 +1,84 @@
+body{
+	margin: 0px 0px 0px 0px;
+}
+#canvas{
+	display: block;
+    margin: auto;
+	top: 1vh;
+	border:0.1vw solid;
+	background-color: rgb(240,240,240);
+}
+.toggle{
+	width: 10vh;
+	height: 4vh;
+	margin-left: 2vh;
+	margin-bottom: 1vh;
+	border: 0.1vh solid black;
+	border-radius: 10vh;
+	transition: 1s;
+}
+.toggleflip{
+	height: 3.5vh;
+    width: 3.5vh;
+    margin-left: 0.1vh;
+    margin-top: 0.1vh;
+	background-color: grey;
+	border: 0.1vh solid black;
+	border-radius: 10vh;
+	transition: 1s;
+	position: relative;
+}
+.info{
+	font-size: 3vh;
+}
+#topmenu{
+	width:80vh;
+	display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+#pop_up{
+	width: 30vw;
+	height: 25%;
+	border: 1px solid #d3d3d3;
+	background-color: rgba(250,250,250,0.75);
+	position: absolute;
+	left: 36%;
+	top: 37%;
+	border:0.1ww solid;
+	z-index: 3;
+}
+#pop_up button{
+	position: absolute;
+	font-size: 1.5vh;	
+	width: 50%;
+	height: 30%;
+	left: 45%;
+	bottom: 30%;
+}
+#pop_up p{
+	margin: 0px 0px 0px 0px;
+	margin-left: 2vh;
+}
+#message{
+	font-size: 3vh;
+	margin-bottom: 1vh;
+	text-align: center; 
+}
+#top{
+	position: absolute;
+	top:1vh;
+	padding: 0px 0px 0px 0px;
+}
+#score{
+	position: relative;
+	font-size: 3vh;
+}
+#title{
+	font-size: 4vh;
+}
+#selector_background{
+	position: absolute;
+	left: 
+}

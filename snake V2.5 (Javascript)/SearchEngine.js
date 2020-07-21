@@ -1,0 +1,3 @@
+var names = ["Abel", "Abigail", "Abner", "Abraham", "Acacia", "Ada", "Adelaide", "Adeline", "Aiden", "Alec", "Alexa", "Alexander", "Alistair", "Amelia", "Amias", "Amory", "Amos", "Anais", "Anastasia", "Anderson", "Angelina", "Anna", "Annabel", "Antonia", "Arabella", "Archer", "Arden", "Arianna", "Ariel", "Arlo", "Arthur", "Asa", "Asher", "Ashton", "Atticus", "Auden", "Audrey", "August", "Aurelia", "Aurora", "Ava", "Avalon", "Avery", "Aza", "Azalea", "Azariah"]
+
+console.log(names);
