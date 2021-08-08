@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="da">
+	<head>
+	<meta charset="utf-8"/>
+	<style type="text/css">
+	@font-face {
+   		font-family: "joystick";
+   		src: url("src/fonts/joystix_monospace.ttf");
+	}
+</style>
+	<title>Snake</title>
+	<link rel="stylesheet" type="text/css" href="css/game.css">
+
+	<script src="/socket.io/socket.io.js"></script>
+	<script type="text/javascript" src="/js/client.js"></script>
+
+	<script type="text/javascript" src="js/ui/menu/MultiplayerMenu.js"></script>
+	<script type="text/javascript" src="js/ui/menu/StartMenu.js"></script>
+	<script type="text/javascript" src="js/ui/menu/GamemodeMenu.js"></script>
+	<script type="text/javascript" src="js/ui/menu/EndMenu.js"></script>
+
+	<script type="text/javascript" src="js/ui/components/UIBox.js"></script>
+	<script type="text/javascript" src="js/ui/components/Button.js"></script>
+	<script type="text/javascript" src="js/ui/components/ToggleButton.js"></script>
+	<script type="text/javascript" src="js/ui/components/KeyDisplay.js"></script>
+	<script type="text/javascript" src="js/ui/components/ExpandingUIBox.js"></script>
+	<script type="text/javascript" src="js/ui/components/FadeButton.js"></script>
+
+	<script type="text/javascript" src="js/ui/Settings.js"></script>	
+	<script type="text/javascript" src="js/ui/KeyboardDisplay.js"></script>
+	<script type="text/javascript" src="js/ui/PlayerSelector.js"></script>
+	<script type="text/javascript" src="js/ui/StartTip.js"></script>	
+	<script type="text/javascript" src="js/ui/SnakeDisplay.js"></script>
+
+	<script type="text/javascript" src="js/snake/Line.js"></script>
+	<script type="text/javascript" src="js/snake/DynamicLine.js"></script>
+	<script type="text/javascript" src="js/snake/Tail.js"></script>
+	<script type="text/javascript" src="js/snake/Food.js"></script>
+	<script type="text/javascript" src="js/snake/Snake.js"></script>
+	
+
+	<script type="text/javascript" src="js/SnakeConstants.js"></script>
+	<script type="text/javascript" src="js/Directions.js"></script>
+	<script type="text/javascript" src="js/Lerp.js"></script>
+	<script type="text/javascript" src="js/InputHandler.js"></script>
+	<script type="text/javascript" src="js/Miscellaneous.js"></script>
+	<script type="text/javascript" src="js/Mainloop.js"></script>
+	</head>
+	<body onload="startup()">
+		<canvas id="canvas" height="100" width="100">
+				Your browser does not support the HTML5 canvas tag.
+		</canvas>
+	</body>
+</html>
+
